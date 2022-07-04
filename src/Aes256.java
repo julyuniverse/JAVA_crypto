@@ -5,7 +5,7 @@ import java.util.Base64;
 
 public class Aes256 {
     public static String algorithm = "AES/CBC/PKCS5Padding";
-    private final String secretKey = "abcdefghijklmnopqrstuvwxyz123456";
+    private final String secretKey = "ajudalcomhagooman~!@#$%^&*()_+12";
     private final String iv = secretKey.substring(0, 16); // 16byte
 
     public String encrypt(String text) throws Exception {
